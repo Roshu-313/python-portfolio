@@ -24,13 +24,16 @@ It helps keep directories clean and saves time by sorting files into categories.
     C:\Users\YourName\Desktop\test_folder
 📂 Example
 
-Input: 
+Input:
+
 C:\Users\YourName\Desktop\test_folder
+
 Output:
 Images/
 Documents/
 Videos/
 Others/
+
 ✅ Status
 
 ✔️ Completed and tested
