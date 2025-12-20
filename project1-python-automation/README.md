@@ -20,7 +20,6 @@ It helps keep directories clean and saves time by sorting files into categories.
 2. Run the script:
 ```bash
 python organizer.py
-
 3. Enter the full path of the folder you want to organize
 
 ## 📂 Example
