@@ -21,18 +21,20 @@ It helps keep directories clean and saves time by sorting files into categories.
    ```bash
    python organizer.py
 3. Enter the full path of the folder you want to organize, for example:
+   
     C:\Users\YourName\Desktop\test_folder
+   
 📂 Example
 
-Input:
+  Input:
 
-C:\Users\YourName\Desktop\test_folder
+    C:\Users\YourName\Desktop\test_folder
 
-Output:
-Images/
-Documents/
-Videos/
-Others/
+  Output:
+   Images/
+   Documents/
+   Videos/
+   Others/
 
 ✅ Status
 
