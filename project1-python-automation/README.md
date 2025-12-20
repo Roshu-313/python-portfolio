@@ -1,7 +1,7 @@
 # 🗂️ Python File Organizer
 
 ## 📌 Overview
-This Python script automatically organizes files in a folder based on their file types.
+This Python script automatically organizes files in a folder based on their file types.  
 It helps keep directories clean and saves time by sorting files into categories.
 
 ## 🚀 Features
@@ -18,26 +18,19 @@ It helps keep directories clean and saves time by sorting files into categories.
 ## ▶️ How to Run
 1. Navigate to this folder
 2. Run the script:
-```bash
-python organizer.py
-3. Enter the full path of the folder you want to organize
+   ```bash
+   python organizer.py
+3. Enter the full path of the folder you want to organize, for example:
+    C:\Users\YourName\Desktop\test_folder
+📂 Example
 
-## 📂 Example
-Input: C:\Users\YourName\Desktop\test_folder
-
+Input: 
+C:\Users\YourName\Desktop\test_folder
 Output:
-- Images/
-- Documents/
-- Videos/
-- Others/
+Images/
+Documents/
+Videos/
+Others/
+✅ Status
 
-## ✅ Status
 ✔️ Completed and tested
-
-
-
-
-
-
-
-
