@@ -15,5 +15,4 @@ It is designed as a beginner-friendly scraping project.
 - Lead generation
 
 ## 🚧 Status
-In progress
-
+✔️ Completed and tested
