@@ -1,0 +1,59 @@
+1. Adobe Photoshop 1.0 Source Code (1990)
+2. computerhistory.org
+3. Show HN: CineCLI – Browse and torrent movies directly from your terminal
+4. github.com/eyeblech
+5. Carnap – A formal logic framework for Haskell
+6. carnap.io
+7. Instant database clones with PostgreSQL 18
+8. boringsql.com
+9. What Is (AI) Glaze?
+10. uchicago.edu
+11. Snitch – A friendlier ss/netstat
+12. github.com/karol-broda
+13. Font with Built-In Syntax Highlighting (2024)
+14. glyphdrawing.club
+15. What are the best engineering blogs with real-world depth (no fluff)?
+16. It's Always TCP_NODELAY
+17. brooker.co.za
+18. The Illustrated Transformer
+19. jalammar.github.io
+20. Ryanair fined €256M over ‘abusive strategy’ to limit ticket sales by OTAs
+21. theguardian.com
+22. The Polyglot NixOS
+23. x86.lol
+24. GLM-4.7: Advancing the Coding Capability
+25. z.ai
+26. Ultrasound Cancer Treatment: Sound Waves Fight Tumors
+27. ieee.org
+28. Claude Code gets native LSP support
+29. github.com/anthropics
+30. NIST was 5 μs off UTC after last week's power cut
+31. jeffgeerling.com
+32. Our New Sam Audio Model Transforms Audio Editing
+33. fb.com
+34. The Duodecimal Bulletin, Vol. 55, No. 1, Year 1209 [pdf]
+35. dozenal.org
+36. Solving the Problems of HBM-on-Logic
+37. morethanmoore.substack.com
+38. The Garbage Collection Handbook
+39. gchandbook.org
+40. Debian adds LoongArch as officially supported architecture
+41. debian.org
+42. Flock Exposed Its AI-Powered Cameras to the Internet. We Tracked Ourselves
+43. 404media.co
+44. FCC Updates Covered List to Include Foreign UAS and UAS Critical Components [pdf]
+45. fcc.gov
+46. 10 years bootstrapped: €6.5M revenue with a team of 13
+47. datocms.com
+48. Scaling LLMs to Larger Codebases
+49. kierangill.xyz
+50. Remove Black Color with Shaders
+51. yuanchuan.dev
+52. A centennial look back at Edward Gorey's macabre art and guarded life
+53. washingtonpost.com
+54. Universal Reasoning Model (53.8% pass 1 ARC1 and 16.0% ARC 2)
+55. arxiv.org
+56. FPGAs Need a New Future
+57. allaboutcircuits.com
+58. Show HN: Python SDK – forecasting with foundation time-series and tabular models
+59. github.com/s-fm
