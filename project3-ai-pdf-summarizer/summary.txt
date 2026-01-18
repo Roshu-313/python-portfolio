@@ -1,0 +1,1 @@
+Subnetting Cheat Sheet. Default Masks: /8 (255.255.0.0) Class B: /16 (255,255. 255.0), Class C: /24, Class D: /27. Number of Subnets: 2¹ = 2 subnets, 2² = 4 subnets. Hosts per subnet: 2^(host bits) − 2 (Network ID & Broadcast) Block Size: 256 − Mask Octet: 256 (128, 96, 128)
