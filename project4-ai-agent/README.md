@@ -72,13 +72,8 @@ Copy code
 - Converts human language like:
 what is 100 divided by 4
 
-csharp
-Copy code
 into:
 100 / 4
-
-markdown
-Copy code
 
 ### ✅ Tool Usage
 - Calculator tool using Python evaluation
@@ -88,9 +83,6 @@ Copy code
 - Stores previous user tasks and agent responses
 - Enables memory queries like:
 what did i ask before
-
-yaml
-Copy code
 
 ---
 
@@ -105,8 +97,6 @@ Agent Response: Result: 4.0
 Enter your task (or 'exit'): what did i ask before
 Agent Response: what is 12 divided by 3
 
-yaml
-Copy code
 
 ---
 
@@ -144,9 +134,9 @@ Copy code
 export HF_TOKEN="your_token_here"
 4️⃣ Run the agent
 bash
-Copy code
-python agent.py
-🧠 Learning Outcomes
+
+
+## 🧠 Learning Outcomes
 Through this project, I learned:
 
 What makes an AI system an agent
@@ -161,7 +151,7 @@ How memory is handled outside the AI model
 
 How agentic systems are structured in production
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 Add more tools (text analysis, file reading)
 
 Long-term memory using files or databases
@@ -172,12 +162,12 @@ Context-aware responses
 
 Integration into a real application
 
-👤 Author
+## 👤 Author
 Roshan Faisal
 Computer Science Undergraduate
 Aspiring AI Engineer & Agentic AI Developer
 
-⭐ Final Note
+## ⭐ Final Note
 This project is intentionally built from scratch to demonstrate understanding of agent internals rather than relying on frameworks.
 
 Frameworks can be learned quickly — agent thinking takes time.
