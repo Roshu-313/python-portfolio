@@ -70,30 +70,32 @@ Copy code
 
 ### ✅ Natural Language Parsing
 - Converts human language like:
-
-text
 what is 100 divided by 4
+
+csharp
+Copy code
 into:
-
-python
-Copy code
 100 / 4
-✅ Tool Usage
-Calculator tool using Python evaluation
 
-Easily extensible to more tools
-
-✅ Short-Term Memory
-Stores previous user tasks and agent responses
-
-Enables memory queries like:
-
-text
+markdown
 Copy code
+
+### ✅ Tool Usage
+- Calculator tool using Python evaluation
+- Easily extensible to more tools
+
+### ✅ Short-Term Memory
+- Stores previous user tasks and agent responses
+- Enables memory queries like:
 what did i ask before
-🧪 Example Usage
-text
+
+yaml
 Copy code
+
+---
+
+## 🧪 Example Usage
+
 Enter your task (or 'exit'): calculate 3 + 3
 Agent Response: Result: 6
 
@@ -102,19 +104,25 @@ Agent Response: Result: 4.0
 
 Enter your task (or 'exit'): what did i ask before
 Agent Response: what is 12 divided by 3
-🧰 Technologies Used
-Python 3
 
-Hugging Face Inference API (Free tier)
-
-Requests library
-
-Agent-based system design (no frameworks)
-
-🚀 How to Run
-1️⃣ Clone the repository
-bash
+yaml
 Copy code
+
+---
+
+## 🧰 Technologies Used
+
+- Python 3
+- Hugging Face Inference API (Free tier)
+- Requests library
+- Agent-based system design (no frameworks)
+
+---
+
+## 🚀 How to Run
+
+### 1️⃣ Clone the repository
+```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 2️⃣ Install dependencies
