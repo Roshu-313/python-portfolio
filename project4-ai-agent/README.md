@@ -112,14 +112,14 @@ Agent Response: what is 12 divided by 3
 ## 🚀 How to Run
 
 ### 1️⃣ Clone the repository
-```bash
+
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
-2️⃣ Install dependencies
+### 2️⃣ Install dependencies
 bash
 Copy code
 pip install requests
-3️⃣ Set Hugging Face Token (Free)
+### 3️⃣ Set Hugging Face Token (Free)
 Create a token on Hugging Face and set it as an environment variable:
 
 Windows (PowerShell):
@@ -132,7 +132,7 @@ Linux / macOS:
 bash
 Copy code
 export HF_TOKEN="your_token_here"
-4️⃣ Run the agent
+### 4️⃣ Run the agent
 bash
 
 
