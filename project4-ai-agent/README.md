@@ -116,54 +116,48 @@ Agent Response: what is 12 divided by 3
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 ### 2️⃣ Install dependencies
-bash
-Copy code
+
 pip install requests
 ### 3️⃣ Set Hugging Face Token (Free)
 Create a token on Hugging Face and set it as an environment variable:
 
 Windows (PowerShell):
 
-powershell
-Copy code
 setx HF_TOKEN "your_token_here"
 Linux / macOS:
 
-bash
-Copy code
 export HF_TOKEN="your_token_here"
 ### 4️⃣ Run the agent
-bash
 
 ---
 
 ## 🧠 Learning Outcomes
 Through this project, I learned:
 
-What makes an AI system an agent
+- What makes an AI system an agent ?
 
-How to separate system commands from agent reasoning
+- How to separate system commands from agent reasoning ?
 
-Why tool input preparation is critical
+- Why tool input preparation is critical ?
 
-How real agents use fallback logic
+- How real agents use fallback logic ?
 
-How memory is handled outside the AI model
+- How memory is handled outside the AI model ?
 
-How agentic systems are structured in production
+- How agentic systems are structured in production ?
 
 ---
 
 ## 🔮 Future Improvements
-Add more tools (text analysis, file reading)
+- Add more tools (text analysis, file reading)
 
-Long-term memory using files or databases
+- Long-term memory using files or databases
 
-Multi-step reasoning
+- Multi-step reasoning
 
-Context-aware responses
+- Context-aware responses
 
-Integration into a real application
+- Integration into a real application
 
 ---
 
