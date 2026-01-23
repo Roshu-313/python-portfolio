@@ -135,6 +135,7 @@ export HF_TOKEN="your_token_here"
 ### 4️⃣ Run the agent
 bash
 
+---
 
 ## 🧠 Learning Outcomes
 Through this project, I learned:
@@ -151,6 +152,8 @@ How memory is handled outside the AI model
 
 How agentic systems are structured in production
 
+---
+
 ## 🔮 Future Improvements
 Add more tools (text analysis, file reading)
 
@@ -162,10 +165,14 @@ Context-aware responses
 
 Integration into a real application
 
+---
+
 ## 👤 Author
 Roshan Faisal
 Computer Science Undergraduate
 Aspiring AI Engineer & Agentic AI Developer
+
+---
 
 ## ⭐ Final Note
 This project is intentionally built from scratch to demonstrate understanding of agent internals rather than relying on frameworks.
