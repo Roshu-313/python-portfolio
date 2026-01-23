@@ -173,3 +173,6 @@ Aspiring AI Engineer & Agentic AI Developer
 This project is intentionally built from scratch to demonstrate understanding of agent internals rather than relying on frameworks.
 
 Frameworks can be learned quickly — agent thinking takes time.
+
+yaml
+Copy code
