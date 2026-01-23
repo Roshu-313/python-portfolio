@@ -1,147 +1,112 @@
 🤖 AI Agent with Tool Use, Reasoning & Memory
 
-A beginner-friendly yet real agentic AI system built from scratch in Python.
-Demonstrates AI-based decision making, fallback logic, natural language parsing, tool usage, and short-term memory — without heavy frameworks.
+A beginner-friendly yet real agentic AI system built from scratch in Python, demonstrating tool usage, AI-based decision making, fallback logic, natural language parsing, and short-term memory.
 
 📌 Project Overview
 
-This project implements a core AI agent architecture without using LangChain, CrewAI, or other abstractions.
+This project implements a real AI agent architecture without using heavy frameworks like LangChain or CrewAI.
 
-The agent is capable of:
+The agent can:
 
-Understanding user tasks written in natural language
+Understand user tasks
 
-Selecting the correct tool using AI reasoning
+Decide which tool to use using AI reasoning
 
-Falling back to rule-based logic if AI fails
+Fall back to rule-based logic if AI fails
 
-Parsing human language into tool-ready inputs
+Parse natural language into tool-ready inputs
 
-Executing tools (calculator)
+Execute tools (calculator)
 
-Remembering previous interactions (short-term memory)
+Remember previous interactions (short-term memory)
 
-This project focuses on how agents actually work internally, not just API calls.
+This project focuses on core agent concepts, not just API calls.
 
 🧠 Why This Project Matters
 
-Most beginner AI projects stop at chatbots.
-
-This project demonstrates agentic thinking, which is foundational for:
+Most beginner AI projects are simple chatbots.
+This project demonstrates agentic thinking, which is the foundation of:
 
 Autonomous AI agents
 
 Task-oriented assistants
 
-Recommendation engines
+Recommendation systems
 
-Multi-tool AI systems
+Multi-tool AI applications
 
-Real-world AI products & startups
+Future AI startups
 
 🧩 Agent Architecture
-
-High-level flow:
-
 User Input
-
+   ↓
 Input Router
-
-Control Commands (e.g. exit)
-
-Memory Queries
-
-Task Requests
-
-AI Reasoning (Hugging Face)
-
-Rule-Based Fallback Logic
-
-Natural Language Parsing
-
-Tool Execution
-
-Memory Storage
-
-Final Response
-
-This separation mirrors how production-grade AI systems are designed.
+   ├─ Control Commands (exit)
+   ├─ Memory Queries
+   └─ Task Requests
+           ↓
+     AI Reasoning (Hugging Face)
+           ↓
+     Fallback Rule Logic
+           ↓
+     Input Parsing Layer
+           ↓
+     Tool Execution (Calculator)
+           ↓
+     Memory Storage
+           ↓
+     Final Response
 
 🛠️ Features
 ✅ AI-Based Tool Selection
 
-Uses a free Hugging Face model for reasoning
+Uses a free Hugging Face model to decide which tool to use
 
-Model used: google/flan-t5-base
+Model: google/flan-t5-base
 
 ✅ Fallback Logic
 
-Ensures reliability if AI fails or responds incorrectly
+If AI fails, a rule-based decision system ensures reliability
 
 ✅ Natural Language Parsing
 
-Converts inputs like:
-
+Converts human language like
 what is 100 divided by 4
-
-Into executable expressions like:
-
+into
 100 / 4
 
 ✅ Tool Usage
 
 Calculator tool using Python evaluation
 
-Easily extensible to additional tools
+Easily extensible to more tools
 
 ✅ Short-Term Memory
 
-Stores previous user tasks and responses
+Stores previous user tasks and agent responses
 
-Supports queries such as:
-
+Enables memory queries like
 what did i ask before
 
 🧪 Example Usage
+Enter your task (or 'exit'): calculate 3 + 3
+Agent Response: Result: 6
 
-Input
+Enter your task (or 'exit'): what is 12 divided by 3
+Agent Response: Result: 4.0
 
-calculate 3 + 3
-
-
-Output
-
-Result: 6
-
-
-Input
-
-what is 12 divided by 3
-
-
-Output
-
-Result: 4.0
-
-
-Input
-
-what did i ask before
-
-
-Output
-
-what is 12 divided by 3
+Enter your task (or 'exit'): what did i ask before
+Agent Response: what is 12 divided by 3
 
 🧰 Technologies Used
 
 Python 3
 
-Hugging Face Inference API (free tier)
+Hugging Face Inference API (Free tier)
 
 Requests library
 
-Custom agent architecture (no frameworks)
+Agent-based system design (no frameworks)
 
 🚀 How to Run
 1️⃣ Clone the repository
@@ -155,12 +120,12 @@ pip install requests
 
 Create a token on Hugging Face and set it as an environment variable.
 
-Windows (PowerShell)
+Windows (PowerShell):
 
 setx HF_TOKEN "your_token_here"
 
 
-Linux / macOS
+Linux / macOS:
 
 export HF_TOKEN="your_token_here"
 
@@ -173,19 +138,19 @@ Through this project, I learned:
 
 What makes an AI system an agent
 
-How to route inputs before sending them to an AI model
+How to separate system commands from agent reasoning
 
 Why tool input preparation is critical
 
-How fallback logic improves reliability
+How real agents use fallback logic
 
 How memory is handled outside the AI model
 
-How real agentic systems are structured
+How agentic systems are structured in production
 
 🔮 Future Improvements
 
-Add additional tools (file reading, text analysis)
+Add more tools (text analysis, file reading)
 
 Long-term memory using files or databases
 
@@ -193,7 +158,7 @@ Multi-step reasoning
 
 Context-aware responses
 
-Integration into a real application or API
+Integration into a real application
 
 👤 Author
 
@@ -205,5 +170,4 @@ Aspiring AI Engineer & Agentic AI Developer
 
 This project is intentionally built from scratch to demonstrate understanding of agent internals rather than relying on frameworks.
 
-Frameworks are easy to learn.
-Agent thinking is the real skill.
+Frameworks can be learned quickly — agent thinking takes time.
