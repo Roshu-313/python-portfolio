@@ -71,7 +71,7 @@ Copy code
 ### ✅ Natural Language Parsing
 - Converts human language like:
 
-```text
+text
 what is 100 divided by 4
 into:
 
@@ -174,5 +174,3 @@ This project is intentionally built from scratch to demonstrate understanding of
 
 Frameworks can be learned quickly — agent thinking takes time.
 
-yaml
-Copy code
