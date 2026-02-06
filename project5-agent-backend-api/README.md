@@ -84,7 +84,7 @@ agent-backend-api/
 
 ### 1️⃣ Install Dependencies
 
-```bash
+bash
 python -m pip install -r requirements.txt
 ### 2️⃣ Set Hugging Face Token (Optional but Recommended)
 Create a free token at: https://huggingface.co/settings/tokens
