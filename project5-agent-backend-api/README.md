@@ -86,6 +86,9 @@ agent-backend-api/
 
 bash
 python -m pip install -r requirements.txt
+
+---
+
 ### 2️⃣ Set Hugging Face Token (Optional but Recommended)
 Create a free token at: https://huggingface.co/settings/tokens
 
@@ -97,8 +100,14 @@ setx HF_TOKEN "your_token_here"
 macOS / Linux:
 
 export HF_TOKEN="your_token_here"
+
+---
+
 ### 3️⃣ Start the API Server
 python -m uvicorn main:app --reload
+
+---
+
 ### 4️⃣ Test the API
 Open your browser at:
 
@@ -113,43 +122,50 @@ Example response:
 {
   "result": "Result: 25"
 }
-🧪 CLI Mode (Optional)
+- 🧪 CLI Mode (Optional)
 The agent can also be run directly in the terminal:
 
 python agent.py
 This is useful for local testing and debugging.
 
-🛡️ Reliability & Safety
-Agent errors do not crash the API
+---
 
-All failures return controlled JSON responses
 
-Clear separation between:
+## 🛡️ Reliability & Safety
+- Agent errors do not crash the API
 
-API layer
+- All failures return controlled JSON responses
 
-Agent logic
+- Clear separation between:
 
-Tool execution
+- API layer
 
-This makes the system deployable and extensible.
+- Agent logic
 
-🚀 What’s Next
-This project is part of a larger roadmap toward advanced agentic AI systems.
+- Tool execution
 
-Upcoming projects include:
+- This makes the system deployable and extensible.
 
-RAG-based agents (document knowledge)
+---
 
-Multi-tool intelligent agents
+## 🚀 What’s Next
+- This project is part of a larger roadmap toward advanced agentic AI systems.
 
-Multi-agent coordination
+- Upcoming projects include:
 
-Full-stack agentic AI systems
+- RAG-based agents (document knowledge)
 
-Product-level AI applications
+- Multi-tool intelligent agents
 
-👤 Author
+- Multi-agent coordination
+
+- Full-stack agentic AI systems
+
+- Product-level AI applications
+
+---
+
+## 👤 Author
 Roshan Faisal
 BSCS Student | Agentic AI & Generative AI Developer
 Focused on building real-world AI systems, not demos.
