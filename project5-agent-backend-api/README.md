@@ -86,7 +86,7 @@ agent-backend-api/
 
 ```bash
 python -m pip install -r requirements.txt
-2️⃣ Set Hugging Face Token (Optional but Recommended)
+### 2️⃣ Set Hugging Face Token (Optional but Recommended)
 Create a free token at: https://huggingface.co/settings/tokens
 
 Then set it as an environment variable:
@@ -97,9 +97,9 @@ setx HF_TOKEN "your_token_here"
 macOS / Linux:
 
 export HF_TOKEN="your_token_here"
-3️⃣ Start the API Server
+### 3️⃣ Start the API Server
 python -m uvicorn main:app --reload
-4️⃣ Test the API
+### 4️⃣ Test the API
 Open your browser at:
 
 http://127.0.0.1:8000/docs
